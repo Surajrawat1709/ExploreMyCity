@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo"
+    android:orientation="vertical"
+    tools:context=".Language">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:background="@color/cyan50"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/learn_garwali_language" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNumber"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+       android:textSize="30sp"
+        android:background="@color/red"
+        android:text="@string/numbers"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFamily"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        android:background="@color/purple_700"
+        android:text="@string/family_members"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnColors"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        android:background="@color/pink"
+        android:text="@string/colours" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPhrases"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        android:background="@color/yellow"
+        android:text="@string/phrases" />
+
+
+</LinearLayout>
